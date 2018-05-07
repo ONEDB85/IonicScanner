@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>
+ 
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding text-center>
+<h1>Barcode Information</h1>
+  <div *ngIf = "scanData">
+    <p>{{this.scanData.text}}</p>
+    <p>{{this.scanData.format}}</p> 
+    <p>{{this.scanData.cancelled}}</p>
+  </div>
+</ion-content>
