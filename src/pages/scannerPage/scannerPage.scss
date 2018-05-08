@@ -1,3 +1,15 @@
 page-scannerPage {
+  $font: 30px;
+  .scannerTitle {
+    font-size: $font;
+  }
+  .myContent {
+    background: linear-gradient(to bottom, #00ccff 0%, #ccffff 100%);
+  }
+}
 
+.button {
+  border-radius: 5%;
+  color: navy;
+//   box-shadow: 100px;
 }

@@ -23,7 +23,7 @@ import { ScannerInfo } from '../pages/scannerInfo/scannerInfo';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp,{tabsPlacement:'top',})
+    IonicModule.forRoot(MyApp,{tabsPlacement:'middle',})
   ],
   bootstrap: [IonicApp],
   entryComponents: [
